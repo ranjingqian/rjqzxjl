@@ -1,0 +1,313 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width:100%;
+    height:100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+/*音乐*/
+.music{
+  width:1rem;
+  height:1rem;
+  background: url(../images/yinyue.png) center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:0.2rem;
+  top:0.2rem;
+  z-index: 999;
+  border-radius: 50%;
+  animation: music 2s linear infinite;
+}
+@keyframes music{
+  100% { transform: rotate(360deg) }
+}
+/* 第一页 */
+#page1>img{
+    position:absolute;
+}
+#page1{
+ 
+   background:url("../images/shouye.png")center center no-repeat;
+   position:relative;
+   background-size:100% 100%;
+}
+.zuopinji{
+  width:4rem ;
+  height:7.5rem;
+  left: 1rem;
+  top:2.5rem;
+}
+
+/* 第二页 */
+#page2{
+    position:relative;
+}
+#page2>img{
+    position:absolute;
+}
+#page2{
+    background:url("../images/page.png") center center no-repeat;
+    background-size:cover;
+    background-size:100% 100%;
+}
+li{
+  text-decoration: none;
+}
+.zs1{
+  width: 1rem; 
+  height:1.5rem ;
+  top:1rem;
+  left:1rem ;
+}
+.zs2{
+  width: 1rem; 
+  height:1.3rem ;
+  top: 1rem;
+  left:2.5rem ;
+}
+.zs3{
+  width:1rem; 
+  height:1.5rem ;
+  top: 1rem;
+  left:4rem ;
+}
+.zs4{
+  width:1rem; 
+  height:1.3rem ;
+  top:1rem;
+  left:5.5rem ;
+}
+.shouhui{
+  position:absolute;
+  left: 2.3rem;
+  top:2rem;
+  font-size: 0.35rem;
+  color:#640505;
+}
+.shouhui4{
+  width: 2rem;
+  height:2rem;
+  left:1rem;
+  top:3rem;
+}
+.shouhui1{
+  width:1.7rem;
+  height:2rem;
+  left:4rem;
+  top:3rem;
+}
+.shouhui6{
+    width:1.7rem;
+    height:2rem;
+    left:1rem;
+    top:6rem;
+}
+.shouhui5{
+    width:1.7rem;
+    height:2rem;
+    left:4rem;
+    top:6rem ;
+}
+.shouhui3{
+    width:1.7rem;
+    height:2rem;
+    left:1rem;
+    top:9rem;
+}
+.shouhui2{
+    width:2rem;
+    height:1.8rem;
+    left: 4rem;
+    top:9.2rem;
+}
+/* 第三页 */
+#page3{
+  position:relative;
+  background: url("../images/page.png");
+  background-size:100% 100%;
+}
+#page3>img{
+  position: absolute;
+}
+#page3>dl{
+  position: absolute;
+  line-height:0.6rem;
+}
+dt{
+  background: #2ab5d8;
+  text-align: center;
+  color: black;
+  font-size:0.45rem; 
+  
+}
+dd{
+  font-size:0.3rem; 
+}
+.zs1{
+  width: 1rem; 
+  height:1.5rem ;
+  top:1rem;
+  left:1rem ;
+}
+.zs2{
+  width: 1rem; 
+  height:1.3rem ;
+  top: 1rem;
+  left:2.5rem ;
+}
+.zs3{
+  width:1rem; 
+  height:1.5rem ;
+  top: 1rem;
+  left:4rem ;
+}
+.zs4{
+  width:1rem; 
+  height:1.3rem ;
+  top:1rem;
+  left:5.5rem ;
+}
+.jihe{
+  width: 1.7rem;
+    height:2rem;
+    left:1rem;
+    top:3rem;
+}
+.zhuomian{
+  width: 2.8rem;
+    height:2rem;
+    left:3.7rem;
+    top:3rem;
+}
+.aihuashi1{
+  width: 1.7rem;
+    height:2rem;
+    left:1rem;
+    top:6rem;
+}
+.aihuashi2{
+  width: 1.7rem;
+    height:2rem;
+    left:3.7rem;
+    top:6rem;
+}
+.KFC{
+  width: 1.7rem;
+    height:2rem;
+    left:1rem;
+    top:9rem;
+}
+.KFC2{
+  width: 1.7rem;
+    height:2rem;
+    left:2.9rem;
+    top:9rem;
+}
+.KFC3{
+  width: 1.7rem;
+    height:2rem;
+    left:4.8rem;
+    top:9rem;
+}
+/* 第四页 */
+#page4{
+  position:relative;
+  background: url("../images/page.png");
+  background-size:100% 100%;
+}
+#page4>img{
+  position: absolute;
+}
+.zs1{
+  width: 1rem; 
+  height:1.5rem ;
+  top:1rem;
+  left:1rem ;
+}
+.zs2{
+  width: 1rem; 
+  height:1.3rem ;
+  top: 1rem;
+  left:2.5rem ;
+}
+.zs3{
+  width:1rem; 
+  height:1.5rem ;
+  top: 1rem;
+  left:4rem ;
+}
+.zs4{
+  width:1rem; 
+  height:1.3rem ;
+  top:1rem;
+  left:5.5rem ;
+}
+.chaoxieshi{
+  width: 4rem;
+  height: 2rem;
+  top:3rem;
+  left: 2rem;
+}
+.tubiao{
+  width:2rem;
+    height:3.5rem;
+  top:6rem;
+  left: 2.7rem;
+}
+.tb{
+  width: 2.5rem;
+  height: 1.8rem;
+  top:10rem;
+  left: 2.7rem;
+}
+#page5{
+  position:relative;
+  background: url("../images/page.png");
+  background-size:100% 100%;
+}
+.guanshang{
+  position: absolute;
+  top: 4rem;
+  left: 1.2rem;
+  font-size: 0.8rem;
+  color: rgb(0, 195, 255);
+}
